@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none !important;
+    box-sizing: border-box;
+}
+
+
+
+.bg-image {
+    background-image: url("../images/header.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.gap-80 {
+    gap: 80px;
+}
+
+.logo-font {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 21.744px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.py-26 {
+    padding-top: 26px;
+}
+
+.link-font {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.main-head {
+    max-width: 515px;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 124%;
+}
+
+.b-main-head {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 124%;
+}
+
+.main-para {
+    width: 547px;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 41px;
+}
+
+.py-content {
+    padding-top: 261px;
+}
+
+.btn1 {
+    padding: 16px 40px 15px 41px;
+    border-radius: 45.5px;
+    background: #FFF;
+    color: #001D49;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+}
+
+.py-48 {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.bg-color {
+    background-color: #000A1A;
+}
+
+.S2-head {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 136%;
+}
+
+.S2-content {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 136%;
+}
+
+.del-text {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 136%;
+    opacity: 0.5;
+}
+
+.head-blur {
+    height: 460px;
+    background: linear-gradient(180deg, rgba(0, 10, 26, 0.00) 0%, #000A1A 100%);
+}
+
+.mt-156 {
+    margin-top: 156px;
+}
+
+.fd-col {
+    flex-direction: column;
+}
+
+.space-content {
+    padding-top: 48px;
+}
+
+.pt-21 {
+    padding-top: 21px;
+}
+
+.mb--4 {
+    margin-bottom: -4px;
+}
+
+.mt-47 {
+    margin-top: 47px;
+}
+
+.btn2 {
+    padding: 10px 20px;
+    color: #001D49;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 45.5px;
+    background: #FFF;
+    border: none;
+}
+
+.mt-52 {
+    margin-top: 52px;
+}
+
+.card {
+    height: 511px;
+    border-radius: 20px;
+    background: #031227;
+}
+
+.img-size {
+    width: 117px;
+    height: 145px;
+}
+
+.pt-138 {
+    padding-top: 138px;
+}
+
+.card-padding {
+    padding: 40px;
+}
+
+.card-text {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    opacity: 0.7;
+    /* width: 347px; */
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-27 {
+    margin-top: 27px;
+}
+
+.card-head {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100.5%;
+}
+
+.mt-44 {
+    margin-top: 44px;
+}
+
+.mt-17 {
+    margin-top: 17px;
+}
+
+.mt-41 {
+    margin-top: 41px;
+}
+
+.pt-131 {
+    padding-top: 131px;
+}
+
+.S3-head {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 136%;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+/* .timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    border: 4px dashed white;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+  } */
+
+
+.line {
+    left: 50%;
+    top: 5%;
+}
+
+/* Container around content */
+.timeline-container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+/* Place the container to the right */
+.right {
+    left: 50%;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+    left: 0px;
+}
+
+/* The actual content */
+.content {
+    padding: 20px 30px;
+    border-radius: 6px;
+}
+
+.top0 {
+    top: 0px;
+}
+
+.top50 {
+    top: 340px;
+}
+
+.top100 {
+    top: 680px;
+}
+
+.timeline-font {
+    color: white;
+}
+
+.light-center {
+    left: -5.5%;
+}
+
+.svg-light {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mt-line {
+    margin-top: 20px;
+}
+
+.middle-svg-center {
+    left: 94.5%;
+    top: 350px;
+}
+
+.timeline-head {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.timeline-font {
+    width: 404.58px;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 182.5%;
+    opacity: 0.7;
+}
+
+.pt-161 {
+    padding-top: 161px;
+}
+
+.pt-110 {
+    padding-top: 110px;
+}
+
+.timeline-end-text {
+    width: 786px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.acc-box {
+    width: 830px;
+}
+
+.acc-head {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 136%;
+}
+
+.pt-47 {
+    padding-top: 47px;
+}
+
+
+.acc-text-color {
+    color: white;
+}
+
+.bg-fill {
+    background-color: #031227;
+    color: white;
+}
+
+.acc-border {
+    border-radius: 150px !important;
+}
+
+.accordion-button::after {
+    flex-shrink: 0;
+    width: var(--bs-accordion-btn-icon-width);
+    height: var(--bs-accordion-btn-icon-width);
+    margin-left: auto;
+    content: "";
+    background-image: url("../images/Vector.png") !important;
+    background-repeat: no-repeat;
+    background-size: var(--bs-accordion-btn-icon-width);
+    transition: var(--bs-accordion-btn-icon-transition);
+}
+
+.acc-ques-color {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.acc-content-color {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.7;
+}
+
+.accordion-button:not(.collapsed) {
+    color: white
+}
