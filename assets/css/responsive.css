@@ -82,5 +82,9 @@
         margin-right: auto;
         width: 70%;
     }
+
+    .ml-56{
+        margin-left: -70px;
+    }
 }
 
