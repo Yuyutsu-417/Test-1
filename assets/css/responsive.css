@@ -68,4 +68,19 @@
     .card-text{
         font-size: var(--fs-s2);
     }
+    .col-lg12{
+        display: flex; 
+        flex-direction: column;
+    }
+    .justify-lg{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .lg-width{
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+    }
 }
+
